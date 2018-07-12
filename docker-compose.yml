@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   portainer:
-    image: portainer/portainer:latest
+    image: portainer/portainer:1.18.1
     container_name: portainer
     ports:
       - target: 9000

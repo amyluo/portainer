@@ -6,7 +6,7 @@ services:
     container_name: portainer
     ports:
       - target: 9000
-        published: 9000
+        published: 9900
         protocol: tcp
         mode: host
     command: -H unix:///var/run/docker.sock
